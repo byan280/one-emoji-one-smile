@@ -1,13 +1,14 @@
 # One Emoji, One Smile
 #
-# This entry prints exactly one emoji to stdout.
-# The output never changes between runs: no input is read,
-# no randomness is used, and no arguments are required.
-# Run it with: python3 main.py
+# This program writes exactly one emoji to standard output.
+# It takes no input, reads no files, and uses no randomness,
+# so every run produces exactly the same single emoji.
 #
-# The output is the entry itself: one smiling emoji.
-# Nothing else is printed, and the process exits normally.
-# The emoji is kept byte-identical on purpose so the result
-# is reproducible on every machine and every run.
+# The emoji lives in the print statement below and nowhere else.
+# Nothing is printed before it and nothing after it.
+# The process ends normally right after the emoji appears.
+# A face that is smiling and melting at the same time says
+# more about a long day than a plain smile ever could.
+# Run it with: python3 main.py
 # Exactly one emoji on stdout.
-print("😊")
+print("🫠")
